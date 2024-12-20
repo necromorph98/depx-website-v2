@@ -432,7 +432,8 @@ a {
   color: $color-header;
   font-family: $font-primary;
   text-align: left;
-  background: $color-gray;
+  // background: $color-gray;
+  background: $color-gray-light;
   border: 0;
   font-weight: 600;
   border-radius: 0;
@@ -459,7 +460,8 @@ a {
 .accordion-button:not(.collapsed) {
   padding: 0rem 0rem 0 0rem;
   color: $color-header;
-  background: $color-gray;
+  // background: $color-gray;
+  background: $color-gray-light;
   box-shadow: none;
 }
 
@@ -514,6 +516,8 @@ a {
     font-family: $font-secondary;
     margin: $base-margin * 0 $base-margin * 25 $base-margin * 0 $base-margin * 0;
     line-height: 33px;
+    color: $color-text-dark;
+    background: $color-gray-light;
 
     @include media-breakpoint-down-xl {
       margin: $base-margin * 0 $base-margin * 5 $base-margin * 0 $base-margin * 0;
@@ -532,7 +536,7 @@ a {
 
 .accordion-item {
   position: relative;
-  background: $color-gray;
+  background: $color-gray-light;
   border-radius: 14px !important;
   margin-bottom: 40px;
   border: 1px solid $color-white;
@@ -558,6 +562,7 @@ a {
     margin-right: 0px;
     font-size: 20px;
     font-weight: 400;
+    background: $color-gray-light;
 
     @include media-breakpoint-down-lg {
       top: 25px;

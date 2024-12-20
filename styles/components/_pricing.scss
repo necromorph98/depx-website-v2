@@ -11,9 +11,9 @@
     padding: $base-padding * 3.9 $base-padding * 0 $base-padding * 3.7;
     background: $color-white;
     border-radius: 20px;
-    box-shadow: 0px 0px 80px rgba(150, 0, 0, 0.06);
+    box-shadow: 0px 0px 80px rgba(146, 130, 130, 0.219);
     z-index: 10;
-    border: 1px solid $color-white;
+    border: 1px solid $color-cyan-light;
 
     @include media-breakpoint-down-xl {
       padding: $base-padding * 3 $base-padding * 0 $base-padding * 3.7;
@@ -96,7 +96,7 @@
         transition: all 0.4s ease-in-out;
         z-index: 2;
         margin-right: $base-margin * 0.8;
-        color: #000;
+        color: #d1cfcf;
       }
 
       .discount {
@@ -178,7 +178,7 @@
         li {
           display: flex;
           align-items: center;
-          color: $color-text-light;
+          color: $color-text-dark;
           font-size: $base-font-size * 1.25;
           line-height: 33px;
           margin-bottom: $base-margin * 1.9;
@@ -281,6 +281,7 @@
 
       p {
         font-size: $base-font-size * 1.35;
+        color: $color-gray;
       }
     }
   }

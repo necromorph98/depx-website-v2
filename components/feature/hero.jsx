@@ -9,7 +9,7 @@ export default function FeatureHero( {block, dataBinding}) {
                 <div className="row align-items-center">
                 <div className="col-lg-6">
                     <div className="feature-hero-content">
-                    <h1 className="">{block.title}</h1>
+                    <h1>{block.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: md.render(block.description) }}/>
                     <div className="d-block mb-6">
                         {block.button &&

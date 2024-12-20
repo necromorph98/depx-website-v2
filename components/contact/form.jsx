@@ -35,7 +35,7 @@ export default function ContactHero({ block, dataBinding }) {
                                     { block.email && 
                                         <>
                                             <h3>{block.email.heading }</h3>
-                                            <Link href={`tel:${block.email.email}`}>{block.email.email}
+                                            <Link href={`mailto:${block.email.email}`}>{block.email.email}
                                                 <span>
                                                     <img
                                                         src={block.email.image}
@@ -112,7 +112,7 @@ export default function ContactHero({ block, dataBinding }) {
                                                         name="message"
                                                         placeholder={block.form.message.placeholder}
                                                         rows="8"
-                                                        spellcheck="false"
+                                                        spellCheck="false"
                                                     />
                                                 </div>
                                             </>

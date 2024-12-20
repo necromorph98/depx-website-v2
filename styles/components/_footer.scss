@@ -3,7 +3,7 @@
 **********/
 .footer {
   position: relative;
-  background: $color-header;
+  background: $color-white;
   &-wrapper {
     max-width: 1500px;
     margin: 0 auto;
@@ -116,7 +116,7 @@
         display: block;
         padding: $base-padding * 0.8 $base-padding * 0.2 $base-padding * 0.8;
         a {
-          color: $color-white;
+          color: $color-gray;
           font-weight: 600;
           transition: all 0.3s ease-in-out;
           &:hover {

@@ -11,26 +11,17 @@ $base-letter-spacing: 0.5px;
 
 //Colors Variables
 
-// HERO
-$color-gray-dark: #0e0d0d;
-$color-header: #dbbff5;
-
-// CTA Button
-// $color-cta: #ffba08;
-
-// $color-white: #fff;
-$color-white: #120f14;
+$color-white: #fff;
 $color-gray: #fcfcfc;
 $color-cyan: #808080;
 $color-cyan-dark: #f3f3f3;
 $color-cyan-light: #5f5f5f;
 //overwritten by site.json -> theme -> primary_color if set
-// $color-primary: #e53b2a;
-$color-primary: #ad64f1;
+$color-primary: #e53b2a;
 $color-primary-light: #e6ebf4;
 $color-primary-dark: mix($color-primary, $color-white, 12%);
 $color-gray-light: mix($color-primary, $color-white, 2%);
-// $color-gray-dark: mix($color-primary, $color-white, 6%);
+$color-gray-dark: mix($color-primary, $color-white, 6%);
 //overwritten by site.json -> theme -> secondary_color if set
 $color-secondary: #fffbf3;
 $color-secondary-light: mix($color-primary, $color-white, 16%);
@@ -39,17 +30,15 @@ $color-secondary-dark: #f7f8fa;
 $color-anchor: #ffba08;
 $color-anchor-dark: mix($color-anchor, $color-white, 30%);
 //overwritten by site.json -> theme -> background_effects_color if set
-$color-background-effects: #8642fa;
+$color-background-effects: #faaa8f;
 
-// $color-header: #000;
+$color-header: #000;
 $color-header-light: mix($color-anchor, $color-white, 4%);
 $color-header-dark: mix($color-anchor, $color-white, 12%);
-// $color-text: #282828;
-$color-text: #dadada;
+$color-text: #282828;
 $color-deactive: #ababab;
 $color-text-dark: #dddddd;
 $color-text-light: #4d4d4d;
-$color-text-black: #0f0f0f;
 
 // Spacer Variables
 $base-padding: 1rem;

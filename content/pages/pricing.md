@@ -11,111 +11,109 @@ seo:
 content_blocks:
   - _bookshop_name: pricing/hero
     title: A plan for everyone
-    description: Sendit is easy to get started and we have a pricing plan for businesses of all sizes.
+    description: depX is easy to get started and we have a pricing plan for businesses of all sizes.
 
   - _bookshop_name: pricing/table
     pricing_tier:
       - tier: Free
         highlight_tier: false
-        description: Everything you need to get started.
+        description: Everything you need to get up and running. 
         currency_symbol: $
         price: 0
         has_discount: false
         discount_price: 0
         features:
-          - item: 1 Email Campaign
+          - item: "Credits: 20"
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: "Supported Cloud: AWS"
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: "Supported Repository: GitHub"
             active_feature: true
-          - item: 90+ Widgets & Extensions
+          - item: Standard dashboard
             active_feature: true
-          - item: 23+ Templates
+          - item: "Support: Ticket" 
             active_feature: true
-          - item: Over 800 Section Blocks
-            active_feature: false
-          - item: Support
-            active_feature: false
-          - item: 3 filters
-            active_feature: false
-          - item: Unlimited activity history
-            active_feature: false
+          - item: "Deployment: SaaS"
+            active_feature: true
+          - item: "Cloud Integrations: 1"
+            active_feature: true
         button:
           link: /signup
           text: Try This Free
-      - tier: Pro
+      - tier: Developer
         highlight_tier: true
         description: More collaborative power and unlimited boards for fast-growing.
         currency_symbol: $
-        price: 199
+        price: 399
         has_discount: true
-        discount_price: 125
+        discount_price: 99
         features:
-          - item: 1 Email Campaign
+          - item: "Credits: 50/day"
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: "Supported Cloud: AWS, Azure, GCP"
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: "Supported Repository: GitHub, Bitbucket, GitLab"
             active_feature: true
-          - item: 90+ Widgets & Extensions
+          - item: Advanced Dashboard
             active_feature: true
-          - item: 23+ Templates
+          - item: Standard Analytics
             active_feature: true
-          - item: Over 800 Section Blocks
+          - item: "Support: Priority Email, Ticket" 
             active_feature: true
-          - item: Support
-            active_feature: false
-          - item: 3 filters
-            active_feature: false
-          - item: Unlimited activity history
-            active_feature: false
+          - item: "Deployment: SaaS"
+            active_feature: true
+          - item: "Cloud Integrations: 7"
+            active_feature: true
+          - item: "Teams: 1"
+            active_feature: true
         button:
           link: /signup
           text: Try This Free
-      - tier: Business
+      - tier: Enterprise
         highlight_tier: false
-        description: For starters Includes unlimited members
-        currency_symbol: $
-        price: 499
-        has_discount: true
-        discount_price: 350
+        description: For growing teams with high frequency DevOps
+        currency_symbol: 
+        price:
+        has_discount: false
+        discount_price:
         features:
-          - item: 1 Email Campaign
+          - item: "Credits: custom"
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: "Supported Cloud: AWS, Azure, GCP, VMWare"
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: "Supported Repository: GitHub, Bitbucket, GitLab"
             active_feature: true
-          - item: 90+ Widgets & Extensions
+          - item: Enterprise Dashboard
             active_feature: true
-          - item: 23+ Templates
+          - item: Advanced Analytics and Auditing
             active_feature: true
-          - item: Over 800 Section Blocks
+          - item: "Support: Priority Email, Ticket" 
             active_feature: true
-          - item: Support
+          - item: "Deployment: SaaS"
             active_feature: true
-          - item: 3 filters
+          - item: "Cloud Integrations: custom"
             active_feature: true
-          - item: Unlimited activity history
+          - item: "RBAC and SSO"
+            active_feature: true
+          - item: "Teams: custom"
             active_feature: true
         button:
-          link: /signup
-          text: Try This Free
+          link: /contact
+          text: Let's Talk!
 
   - _bookshop_name: global/faq
     title: Have
     title_suffix: Questions?
-    description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
+    description: We believe that a secure and scalable setup is key to growth of any enterprise. So we’re helping you grow your business with tools and resources that makes DevOps cost effective.
     FAQ:
-      - title: Is there a maximum numbers of emails I can send each month?
-        description: No, the prices include unlimited emails. Send to your heart's content.
-      - title: Where can I find out more information?
-        description: Right here on this website, or contact our support team.
-      - title: Do you have pricing for non-profits?
-        description: Yes, contact our support team and we'll get you set up on our non-profit plan.
+      - title: I am a DevOps engineer. Will this tool replace me?
+        description: This tool is designed to speed up DevOps without compromising on security and scalability. A lot of our users are DevOps engineers who take on freelancing projects at a much higher frequency than before, without it affecting their current jobs. Our AI solution is here to boost productivity, not replace engineers.
+      - title: Is there a free tier?
+        description: Yes, there is a free tier that gives 20 credits, valid for 7 days, to get started.
+      - title: How many credits do I get?
+        description: In the free tier, you get started with 20 credits total. The team plan gives you 50 credits per day. The enterprise license does not have any restrictions.
       - title: What forms of payment do you accept?
-        description: We accept credit cards, checks, and cash.
+        description: We accept all popular payments methods.
       - title: In which currencies can I make payments?
         description: All payments are in **USD**.
 ---

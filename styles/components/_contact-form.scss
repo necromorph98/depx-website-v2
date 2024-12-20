@@ -6,7 +6,8 @@
   }
 
   &-hero {
-    background: $color-secondary-dark;
+    // background: $color-secondary-dark;
+    background: $color-gray-dark;
     padding: $base-padding * 17.4 0 $base-padding * 9.6;
 
     @include media-breakpoint-down-xl {
@@ -39,7 +40,7 @@
 
       p {
         font-size: $base-font-size * 1.4;
-        color: $color-text-light;
+        color: $color-text-dark;
         font-weight: 500;
         line-height: 36.3px;
         width: 80%;
@@ -67,7 +68,7 @@
 
       p {
         font-size: $base-font-size * 1.25;
-        color: $color-text-light;
+        color: $color-text-dark;
         margin-bottom: $base-margin * 2.6;
 
         @include media-breakpoint-down-md {
@@ -76,14 +77,14 @@
       }
 
       .item {
-        background: $color-secondary-dark;
+        background: $color-secondary-light;
         border-radius: 10px;
         padding: $base-padding * 0.9 $base-padding * 1.25;
 
         h3 {
           font-size: $base-font-size * 0.8;
           font-weight: 300;
-          color: $color-text-light;
+          color: $color-text-dark;
           margin-bottom: $base-margin * 0.3;
         }
 
@@ -116,9 +117,9 @@
       padding: $base-padding * 4.2 $base-padding * 3.3 $base-padding * 3.1;
       background: $color-white;
 
-    @include media-breakpoint-down-md {
-  padding: $base-padding * 2.5 $base-padding * 1.25 $base-padding * 1.25;
-    }
+      @include media-breakpoint-down-md {
+        padding: $base-padding * 2.5 $base-padding * 1.25 $base-padding * 1.25;
+      }
 
       h3 {
         font-size: $base-font-size * 1.9;

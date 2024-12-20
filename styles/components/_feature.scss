@@ -20,6 +20,7 @@
     p {
       width: 72%;
       margin: 0 auto;
+      color: $color-text-dark;
 
       @include media-breakpoint-down-xl {
         width: 90%;
@@ -110,7 +111,7 @@
     }
 
     p {
-      color: $color-text-light;
+      color: $color-text-dark;
       margin-bottom: $base-margin * 0.7;
       font-size: 20px;
       line-height: 33px;

@@ -34,7 +34,6 @@ export default function AboutHero({ block, dataBinding }) {
                     </div>
                     <div className="col-xl-7 col-lg-12">
                         <div className="about-hero-two-banner">
-
                             {block.hero_images.map((image, i) => (
                                 <div className={`${renderPlacer(image.placement)}`} key={i}>
                                     <img src={image.image} alt={image.image_alt} loading="lazy" />

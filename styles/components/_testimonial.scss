@@ -2,7 +2,7 @@
   11. Testimonial Section Styles 
 **********/
 .testimonial {
-   background: $color-header;
+   background: $color-gray-dark;
    position: relative;
    border-bottom: 1px solid $color-text;
    overflow: hidden;
@@ -20,7 +20,7 @@
          padding-bottom: $base-padding * 3;
       }
       h2 {
-         color: $color-white;
+         color: $color-header;
          font-size: $base-font-size * 2.8;
          margin-bottom: $base-margin * 1.4;
          span {

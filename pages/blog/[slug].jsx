@@ -55,7 +55,7 @@ export default function Post({ page, posts }) {
 								alt={page.data.featuredImg.image_alt}
 							/>
 						</div>
-						<div style={{"max-width": "900px", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: page.content_html }}></div>
+						<div style={{"maxWidth": "900px", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: page.content_html }}></div>
 						</article>
 					</div>
 				</div>
